@@ -102,9 +102,11 @@
 @layer base {
   * {
     @apply border-border;
+    scrollbar-width: none !important;
   }
 
   body {
     @apply bg-background text-foreground;
+    scrollbar-width: none !important;
   }
 }
