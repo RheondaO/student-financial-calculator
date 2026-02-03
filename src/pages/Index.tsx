@@ -57,7 +57,7 @@ const Index = () => {
   };
 
   const handleMeetAdvisor = () => {
-    window.open("https://sfmc.vcu.edu/appointments", "_blank");
+    window.open("https://uaa.vcu.edu/services/appointments/", "_blank");
   };
 
   const handleEmailAdvisor = () => {
