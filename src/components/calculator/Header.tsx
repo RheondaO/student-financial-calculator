@@ -21,8 +21,8 @@ export function Header() {
             <span className="text-sm font-semibold text-primary-foreground">
                 Financial Gap Calculator Mock Scenario
               </span>
-            </div> */}
-          </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </header>
