@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        vcu: {
+          gold: "hsl(var(--vcu-gold))",
+          black: "hsl(var(--vcu-black))",
+          gray: "hsl(var(--vcu-gray))",
+          "dark-gray": "hsl(var(--vcu-dark-gray))",
+          warning: "hsl(var(--vcu-warning))",
+        },
+        gap: {
+          card: "hsl(var(--gap-card-bg))",
+          "card-foreground": "hsl(var(--gap-card-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
