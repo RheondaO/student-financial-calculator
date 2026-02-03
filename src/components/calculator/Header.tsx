@@ -16,9 +16,9 @@ export function Header() {
               </p>
             </div>
           </div>
-          <div className="hidden md:block">
+         {/*     <div className="hidden md:block">
             <div className="bg-primary px-4 py-2 rounded-md">
-              {/*  <span className="text-sm font-semibold text-primary-foreground">
+            <span className="text-sm font-semibold text-primary-foreground">
                 Financial Gap Calculator Mock Scenario
               </span> */}
             </div>
