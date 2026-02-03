@@ -14,7 +14,7 @@ export function DataIntegrity({ sessionId, lastUpdated }: DataIntegrityProps) {
       </CardHeader>
       <CardContent className="space-y-3">
         <a
-          href="https://enrollment.vcu.edu/tuition"
+          href="https://admissions.vcu.edu/cost-aid/tuition-fees/#:~:text=the%20academic%20year.-,Undergraduate,-Graduate"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm text-primary hover:underline"
