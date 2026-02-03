@@ -10,17 +10,17 @@ export function Header() {
               <Mail className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">VCU SFMC</h1>
+              <h1 className="text-xl font-bold text-foreground">VCU SFMC Student Financial Gap Calculator</h1>
               <p className="text-sm text-muted-foreground">
-                Student Financial Gap Calculator
+                Student Financial Aid Gap Calculator
               </p>
             </div>
           </div>
           <div className="hidden md:block">
             <div className="bg-primary px-4 py-2 rounded-md">
-              <span className="text-sm font-semibold text-primary-foreground">
+              {/*  <span className="text-sm font-semibold text-primary-foreground">
                 Financial Gap Calculator Mock Scenario
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
