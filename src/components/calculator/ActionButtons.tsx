@@ -23,8 +23,8 @@ export function ActionButtons({
         Start Over
       </Button>
       <Button
-        onClick={onCalculate}
-        disabled={!isValid}
+       onClick={onCalculate}
+        disabled={true}
         className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground"
       >
         <Calculator className="w-4 h-4" />
