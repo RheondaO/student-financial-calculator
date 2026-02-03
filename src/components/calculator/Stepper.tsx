@@ -39,10 +39,14 @@ export function Stepper({ currentStep, onStepClick }: StepperProps) {
                     : currentStep > step.id
                     ? "bg-primary/20 text-foreground"
                     : "bg-muted text-muted-foreground",
-                  onStepClick && "hover:opacity-80 cursor-pointer"
+                  // Update cursor logic: only show pointer if it's Step 1
+                  onStepClick && step.id === 1 && "hover:opacity-80 cursor-pointer",
+                  // Visual feedback for disabled steps
+                  step.id > 1 && "opacity-50 cursor-not-allowed"
                 )}
-                disabled={!onStepClick}
-              >
+                // DISABLE LOGIC HERE:
+                disabled={!onStepClick || step.id > 1} 
+                >
                 <div
                   className={cn(
                     "flex items-center justify-center w-6 h-6 rounded-full text-xs font-bold",
