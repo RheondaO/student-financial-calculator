@@ -20,8 +20,8 @@ export function Header() {
             <div className="bg-primary px-4 py-2 rounded-md">
             <span className="text-sm font-semibold text-primary-foreground">
                 Financial Gap Calculator Mock Scenario
-              </span> */}
-            </div>
+              </span>
+            </div> */}
           </div>
         </div>
       </div>
