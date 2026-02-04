@@ -1,12 +1,12 @@
 
 
-## VCU SFMC Student Financial Gap Calculator
+# VCU SFMC Student Financial Gap Calculator
 
 A comprehensive, multi-step financial planning tool matching the exact UI reference provided, with full backend integration for user accounts, data persistence, and advisor communication.
 
 ---
 
-### Visual Design (Matching Reference Exactly)
+## Visual Design (Matching Reference Exactly)
 
 **Header:**
 - VCU SFMC logo with envelope icon
@@ -24,7 +24,7 @@ Student Gap Calculator → Start → Enrollment → Funding → Payment Planner 
 
 ---
 
-### Main Layout (Two-Column Design)
+## Main Layout (Two-Column Design)
 
 **Left Column - Input Sections:**
 
@@ -63,7 +63,7 @@ Student Gap Calculator → Start → Enrollment → Funding → Payment Planner 
 
 ---
 
-### Backend Integration (Supabase/Lovable Cloud)
+## Backend Integration (Supabase/Lovable Cloud)
 
 **Database Tables (Matching Data Model):**
 
@@ -86,7 +86,7 @@ Student Gap Calculator → Start → Enrollment → Funding → Payment Planner 
 
 ---
 
-### Calculation Engine
+## Calculation Engine
 
 **Total Bill Formula:**
 `Total_Bill = (Credit_Hours × Cost_Per_Credit) + Mandatory_Fees`
@@ -102,7 +102,7 @@ All currency values handled with Decimal(10,2) precision to prevent floating-poi
 
 ---
 
-### Key Features
+## Key Features
 
 - **Real-time updates**: Gap card updates instantly as inputs change
 - **Validation guards**: Cannot proceed with empty required fields
@@ -115,7 +115,7 @@ All currency values handled with Decimal(10,2) precision to prevent floating-poi
 
 ---
 
-### Footer
+## Footer
 
 - Session ID display
 - "A VCU SFMC Project. Designed for student success."
